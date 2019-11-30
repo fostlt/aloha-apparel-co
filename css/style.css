@@ -5,9 +5,9 @@ html {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 *,
@@ -17,21 +17,21 @@ html {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 600px){
-  body{
-    background: red;  
+@media only screen and (min-width: 600px) {
+  body {
+    background: red;
   }
 }
 
 
 /* all */
-body{
+body {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
   color: #2d2d2d;
 }
 
-h2{
+h2 {
   font-size: 2.4rem;
   font-style: italic;
   font-family: "Playfair Display", serif;
@@ -45,54 +45,54 @@ h2{
 
 
 /* header with navigation bar section*/
-.header-top{
+.header-top {
   display: flex;
   margin: 0 auto;
   max-width: 599px;
   flex-wrap: wrap;
-  
+
 }
 
 .aloha-logo {
-order: 1;
-flex: 0 1 50%;
-align-self: flex-start;
+  order: 1;
+  flex: 0 1 50%;
+  align-self: flex-start;
 }
 
-.aloha-logo-img{
-max-width: 120px;
+.aloha-logo-img {
+  max-width: 120px;
 
 }
 
-.cart-logo{
-order: 2;
-flex: 0 1 50%;
-width: 50px;
-align-self: flex-end;
+.cart-logo {
+  order: 2;
+  flex: 0 1 50%;
+  width: 50px;
+  align-self: flex-end;
 }
 
-.navigation-container{
-order: 3;
-flex: 1 0 auto;
-text-align: center;
+.navigation-container {
+  order: 3;
+  flex: 1 0 auto;
+  text-align: center;
 }
 
-.navigation-container li{
+.navigation-container li {
   display: inline-block;
 
-  }
-
-  /* Hero image section */
-  
-.hero-image-section {
-  height:400px;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ),url('../images/banner-girl.png') center 60px, url('../images/flower-bkgd.jpg');
-  background-size: cover, 150px 369px, cover;
-  background-repeat: no-repeat,no-repeat,no-repeat;
-/* I didn't know about how many values you can add in-between */
 }
 
-.hero-text-container{
+/* Hero image section */
+
+.hero-image-section {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/banner-girl.png') center 60px, url('../images/flower-bkgd.jpg');
+  background-size: cover, 150px 369px, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  /* I didn't know about how many values you can add in-between */
+}
+
+.hero-text-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,14 +100,14 @@ text-align: center;
   height: 100%;
 }
 
-.new-collection-text{
+.new-collection-text {
   font-size: 1rem;
   color: #fff;
   font-weight: 400;
   text-transform: uppercase;
 }
 
-.spring-summer-text{
+.spring-summer-text {
   font-size: 2.5rem;
   color: #fff;
   font-family: "Playfair Display", serif;
@@ -115,19 +115,72 @@ text-align: center;
 
 /* hand-crafted section */
 
-.hand-crafted-section{
+.hand-crafted-section {
   text-align: center;
   padding: 2rem 1rem 2rem 1rem;
 }
 
 .hand-crafted-container {
- padding: 0px;
- 
+  padding: 0px;
+
 }
 
 .hand-crafted-container p {
   font-size: 1rem;
-  padding-top:1rem;
+  padding-top: 1rem;
   font-weight: 300;
   line-height: 2rem;
- }
+}
+
+/* products section */
+
+
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "mens-section mens-section""trends-section glasses-section""sales-section bags-section""womens-section womens-section";
+  grid-gap: 7px;
+}
+
+.mens-section {
+  grid-area: mens-section;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/mens-category.jpg) no-repeat;
+  background-size: cover,cover;
+  height: 300px;
+}
+
+.trends-section {
+  grid-area: trends-section;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/trends-category.jpg) no-repeat;
+  background-size: cover,cover;
+  height: 300px;
+}
+
+.glasses-section {
+  grid-area: glasses-section;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/glasses-category.jpg) no-repeat;
+  background-size: cover,cover;
+  height: 300px;
+}
+
+.sales-section {
+  grid-area: sales-section;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/sale-category.jpg) no-repeat;
+  background-size: cover,cover;
+  height: 300px;
+}
+
+.bags-section {
+  grid-area: bags-section;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/bags-category.jpg) no-repeat;
+  background-size: cover,cover;
+  height: 300px;
+}
+
+.womens-section {
+  grid-area: womens-section;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/womens-category.jpg) no-repeat;
+  background-size: cover,cover;
+  height: 300px;
+}
