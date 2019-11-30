@@ -24,6 +24,13 @@ html {
 }
 
 
+
+body{
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: #2d2d2d;
+}
+
 /* header with navigation bar section*/
 .header-top{
   display: flex;
@@ -69,4 +76,26 @@ text-align: center;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/banner-girl.png') center 60px, url('../images/flower-bkgd.jpg');
   background-size: cover, 150px 369px, cover;
   background-repeat: no-repeat,no-repeat,no-repeat;
+/* I didn't know about how many values you can add in-between */
+}
+
+.hero-text-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.new-collection-text{
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.spring-summer-text{
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Playfair Display", serif;
 }
