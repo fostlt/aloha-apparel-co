@@ -1,0 +1,72 @@
+/*  Extra Resets */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 600px){
+  body{
+    background: red;  
+  }
+}
+
+
+/* header with navigation bar section*/
+.header-top{
+  display: flex;
+  margin: 0 auto;
+  max-width: 599px;
+  flex-wrap: wrap;
+  
+}
+
+.aloha-logo {
+order: 1;
+flex: 0 1 50%;
+align-self: flex-start;
+}
+
+.aloha-logo-img{
+max-width: 120px;
+
+}
+
+.cart-logo{
+order: 2;
+flex: 0 1 50%;
+width: 50px;
+align-self: flex-end;
+}
+
+.navigation-container{
+order: 3;
+flex: 1 0 auto;
+text-align: center;
+}
+
+.navigation-container li{
+  display: inline-block;
+
+  }
+
+  /* Hero image section */
+  
+.hero-image-section {
+  height:400px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/banner-girl.png') center 60px, url('../images/flower-bkgd.jpg');
+  background-size: cover, 150px 369px, cover;
+  background-repeat: no-repeat,no-repeat,no-repeat;
+}
