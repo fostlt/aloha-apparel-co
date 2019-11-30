@@ -43,6 +43,13 @@ h2 {
   font-style: normal;
 }
 
+ .centered {
+  text-align: center;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
 
 /* header with navigation bar section*/
 .header-top {
@@ -134,6 +141,10 @@ h2 {
 
 /* products section */
 
+.products-section{
+  text-align: center;
+}
+
 
 .products-container {
   display: grid;
@@ -148,6 +159,9 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/mens-category.jpg) no-repeat;
   background-size: cover,cover;
   height: 300px;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  
 }
 
 .trends-section {
@@ -155,6 +169,8 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/trends-category.jpg) no-repeat;
   background-size: cover,cover;
   height: 300px;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .glasses-section {
@@ -162,6 +178,8 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/glasses-category.jpg) no-repeat;
   background-size: cover,cover;
   height: 300px;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .sales-section {
@@ -169,6 +187,8 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/sale-category.jpg) no-repeat;
   background-size: cover,cover;
   height: 300px;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .bags-section {
@@ -176,6 +196,8 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/bags-category.jpg) no-repeat;
   background-size: cover,cover;
   height: 300px;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .womens-section {
@@ -183,4 +205,6 @@ h2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/womens-category.jpg) no-repeat;
   background-size: cover,cover;
   height: 300px;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
