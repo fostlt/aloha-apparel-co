@@ -24,12 +24,25 @@ html {
 }
 
 
-
+/* all */
 body{
   font-size: 14px;
   font-family: "Raleway", sans-serif;
   color: #2d2d2d;
 }
+
+h2{
+  font-size: 2.4rem;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.bolded {
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 /* header with navigation bar section*/
 .header-top{
@@ -73,7 +86,7 @@ text-align: center;
   
 .hero-image-section {
   height:400px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/banner-girl.png') center 60px, url('../images/flower-bkgd.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ),url('../images/banner-girl.png') center 60px, url('../images/flower-bkgd.jpg');
   background-size: cover, 150px 369px, cover;
   background-repeat: no-repeat,no-repeat,no-repeat;
 /* I didn't know about how many values you can add in-between */
@@ -99,3 +112,22 @@ text-align: center;
   color: #fff;
   font-family: "Playfair Display", serif;
 }
+
+/* hand-crafted section */
+
+.hand-crafted-section{
+  text-align: center;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.hand-crafted-container {
+ padding: 0px;
+ 
+}
+
+.hand-crafted-container p {
+  font-size: 1rem;
+  padding-top:1rem;
+  font-weight: 300;
+  line-height: 2rem;
+ }
