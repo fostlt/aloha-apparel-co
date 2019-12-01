@@ -2,7 +2,8 @@ var elem = document.querySelector('.carousel-container');
 var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
-  contain: true
+  contain: true,
+  autoPlay: true
 });
 
 // element argument can be a selector string
