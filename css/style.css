@@ -663,3 +663,11 @@ a:hover {
 #submit:hover {
   background-color: #b64036;
 }
+
+.centered a{
+text-decoration: none;
+color: #fff;
+}
+.centered a:hover{
+  color: #f5ebc6;
+  }
