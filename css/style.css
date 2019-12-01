@@ -307,8 +307,11 @@ input {
   font-family: "Raleway", sans-serif;
   font-size: .9rem;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
 
+/* footer section */
 .aloha-footer {
   background-color: #242424;
   color: #fff;
@@ -338,11 +341,12 @@ input {
   margin: .5rem;
 }
 
+.social-media-text{
+display: none;
+}
+
 /* Media Queries */
 @media only screen and (min-width: 600px) {
-  body {
-    background: blue;
-  }
 
   /* header - 600px */
   .header-top {
@@ -481,5 +485,92 @@ width: 50%;
 }
 
 /* footer */
+
+.aloha-footer{
+  display: flex;
+}
+
+.footer-container{
+  width: 50%;
+  text-align: left;
+  margin-left: 1rem;
+}
+.social-media-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.social-media-container i{
+  margin-right: 1px;
+}
+
+.social-media-text{
+  display: inline-block;
+  padding-left: 1rem;
+  }
+
+  .copyright-container{
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .contact-container{
+    margin-bottom: 1.5rem;
+  }
+
+  .location-container{
+    color: #969696;
+    line-height: 1.5rem;
+  }
+}
+
+/* desktop size */
+@media only screen and (min-width: 1240px) {
+body{
+  background: lightblue;
+}
+
+/* header section - 1240px*/
+.header-top{
+  max-width: 1240px;
+  margin-bottom: 1.6rem;
+}
+.aloha-logo{
+  flex: 0 1 15%;
+}
+.aloha-logo-img{
+  max-width: 160px;
+}
+
+.navigation-container{
+  align-self: center;
+}
+
+.navigation-container{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+.cart-logo{
+  max-width: 62px;
+  margin-top: 0.3rem;
+}
+
+/* hero image section - 1240px */
+
+.hero-image-section{
+  height: 550px;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: center, center 100px;
+  background-size: contain, contain, contain;
+}
+
+/* hand-crafted section - desktop*/
+
 
 }
