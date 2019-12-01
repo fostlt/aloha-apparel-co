@@ -1,6 +1,6 @@
 
 # Aloha Apparel Co
-Aloha Apparel Co is one of my first websites I made with Red Academy. The main idea behind it was to learn basic html, css, and some js.
+Aloha Apparel Co is my first website I made with Red Academy. The main idea behind it was to learn basic html, css, and some js.
 
 # What did I learn?
 After finishing this website I got a basic grasp on how to structure a website with the idea of mobile first design.
