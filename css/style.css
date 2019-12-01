@@ -16,14 +16,6 @@ html {
   box-sizing: inherit;
 }
 
-/* Media Queries */
-@media only screen and (min-width: 600px) {
-  body {
-    background: red;
-  }
-}
-
-
 /* all */
 body {
   font-size: 14px;
@@ -57,13 +49,21 @@ h2 {
   margin: 0 auto;
   max-width: 599px;
   flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
 
+.header-top a{
+  text-decoration: none;
+  list-style: none;
+  color: #e2574c;
 }
 
 .aloha-logo {
   order: 1;
   flex: 0 1 50%;
-  align-self: flex-start;
 }
 
 .aloha-logo-img {
@@ -75,17 +75,23 @@ h2 {
   order: 2;
   flex: 0 1 50%;
   width: 50px;
-  align-self: flex-end;
+  text-align: right;
 }
 
 .navigation-container {
   order: 3;
   flex: 1 0 auto;
   text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d7d7d7;
 }
+
 
 .navigation-container li {
   display: inline-block;
+  margin: 0 1rem;
+  font-size: 1rem;
 
 }
 
@@ -330,4 +336,11 @@ input{
 .social-media-container li{
 display: inline-block;
 margin: .5rem;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 600px) {
+  body {
+    background: red;
+  }
 }
