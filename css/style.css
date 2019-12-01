@@ -78,6 +78,7 @@ h2 {
   flex: 0 1 50%;
   width: 50px;
   text-align: right;
+  position: relative;
 }
 
 .navigation-container {
@@ -298,7 +299,7 @@ input {
   font-size: 1rem;
 }
 
-#submit {
+#btn {
   background-color: #e2574c;
   color: #fff;
   padding: .8rem 1.5rem;
@@ -537,6 +538,8 @@ width: 50%;
 .header-top{
   max-width: 1240px;
   margin-bottom: 1.6rem;
+
+
 }
 .aloha-logo{
   flex: 0 1 15%;
@@ -671,3 +674,22 @@ color: #fff;
 .centered a:hover{
   color: #f5ebc6;
   }
+
+.cartBtn {
+  background: #e2574c;
+  border-radius: 12px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  padding: 1px 7px;
+}
+
+#cartNumber{
+  font-size: 2rem;
+  color: #e2574c;
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  
+}
+
