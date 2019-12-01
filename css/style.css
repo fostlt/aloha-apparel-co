@@ -246,3 +246,30 @@ h2 {
   font-weight: 700;
   margin-bottom: .5rem;
 }
+
+/* Subscribe / Update Section */
+.subscribe-section {
+  background: linear-gradient(rgba(0,0,0,0.3) 0,rgba(0,0,0,0.5)),
+  url(../images/wave-bkgd.jpg) no-repeat bottom;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sign-up-text{
+  font-size: 2.2rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.subscribe-text{
+  font-size: 1rem;
+  color: #fff;
+  line-height: 2rem;
+}
