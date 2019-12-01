@@ -208,3 +208,41 @@ h2 {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+/* loved-products section & flickity section */
+
+.loved-products-section{
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.main-carousel {
+  display: block;
+}
+.carousel-cell {
+  width: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.products-catagory{
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #969696;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.products-name{ 
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  color: #e2574c;
+  margin-bottom: .5rem; 
+}
+
+.products-price {
+  color: #969696;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
