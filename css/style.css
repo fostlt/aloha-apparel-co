@@ -272,4 +272,62 @@ h2 {
   font-size: 1rem;
   color: #fff;
   line-height: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.subscribe-form{
+  position: relative;
+}
+
+input{
+    padding: .9rem 1.75rem;
+    padding-right: 150px;
+    width: 90%;
+    border-radius: 25px;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+}
+
+#submit{
+  background-color: #e2574c;
+  color: #fff;
+  padding: .8rem 1.5rem;
+  width: 20%;
+  position: absolute;
+  right: 30px;
+  bottom: 3px;
+  font-family: "Raleway", sans-serif;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.aloha-footer{
+  background-color: #242424;
+  color: #fff;
+  padding: 4rem 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.copyright-container{
+  margin-bottom: 1rem;
+}
+
+.contact-container a{
+  color: #e2574c;
+}
+
+.contact-container{
+  margin-bottom: 1rem;  
+}
+
+.location-container {
+  margin-bottom: 1rem;
+}
+
+.social-media-container li{
+display: inline-block;
+margin: .5rem;
 }
