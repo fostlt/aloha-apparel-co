@@ -35,7 +35,7 @@ h2 {
   font-style: normal;
 }
 
- .centered {
+.centered {
   text-align: center;
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -52,10 +52,10 @@ h2 {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  
+
 }
 
-.header-top a{
+.header-top a {
   text-decoration: none;
   list-style: none;
   color: #e2574c;
@@ -147,7 +147,7 @@ h2 {
 
 /* products section */
 
-.products-section{
+.products-section {
   text-align: center;
 }
 
@@ -162,18 +162,18 @@ h2 {
 
 .mens-section {
   grid-area: mens-section;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/mens-category.jpg) no-repeat;
-  background-size: cover,cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/mens-category.jpg) no-repeat;
+  background-size: cover, cover;
   height: 300px;
   padding-top: 9rem;
   padding-bottom: 9rem;
-  
+
 }
 
 .trends-section {
   grid-area: trends-section;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/trends-category.jpg) no-repeat;
-  background-size: cover,cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/trends-category.jpg) no-repeat;
+  background-size: cover, cover;
   height: 300px;
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -181,8 +181,8 @@ h2 {
 
 .glasses-section {
   grid-area: glasses-section;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/glasses-category.jpg) no-repeat;
-  background-size: cover,cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/glasses-category.jpg) no-repeat;
+  background-size: cover, cover;
   height: 300px;
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -190,8 +190,8 @@ h2 {
 
 .sales-section {
   grid-area: sales-section;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/sale-category.jpg) no-repeat;
-  background-size: cover,cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/sale-category.jpg) no-repeat;
+  background-size: cover, cover;
   height: 300px;
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -199,8 +199,8 @@ h2 {
 
 .bags-section {
   grid-area: bags-section;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/bags-category.jpg) no-repeat;
-  background-size: cover,cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/bags-category.jpg) no-repeat;
+  background-size: cover, cover;
   height: 300px;
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -208,8 +208,8 @@ h2 {
 
 .womens-section {
   grid-area: womens-section;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/womens-category.jpg) no-repeat;
-  background-size: cover,cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/womens-category.jpg) no-repeat;
+  background-size: cover, cover;
   height: 300px;
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -217,7 +217,7 @@ h2 {
 
 /* loved-products section & flickity section */
 
-.loved-products-section{
+.loved-products-section {
   margin-top: 2.5rem;
   margin-bottom: 3rem;
   text-align: center;
@@ -226,13 +226,13 @@ h2 {
 .main-carousel {
   display: block;
 }
+
 .carousel-cell {
   width: 100%;
   text-align: center;
-  width: 100%;
 }
 
-.products-catagory{
+.products-catagory {
   font-size: .75rem;
   text-transform: uppercase;
   color: #969696;
@@ -240,11 +240,11 @@ h2 {
   margin-bottom: .5rem;
 }
 
-.products-name{ 
+.products-name {
   font-size: 1.5rem;
   font-family: "Raleway", sans-serif;
   color: #e2574c;
-  margin-bottom: .5rem; 
+  margin-bottom: .5rem;
 }
 
 .products-price {
@@ -255,8 +255,8 @@ h2 {
 
 /* Subscribe / Update Section */
 .subscribe-section {
-  background: linear-gradient(rgba(0,0,0,0.3) 0,rgba(0,0,0,0.5)),
-  url(../images/wave-bkgd.jpg) no-repeat bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.5)),
+    url(../images/wave-bkgd.jpg) no-repeat bottom;
   height: 300px;
   text-align: center;
   align-items: center;
@@ -266,7 +266,7 @@ h2 {
   padding-right: 1rem;
 }
 
-.sign-up-text{
+.sign-up-text {
   font-size: 2.2rem;
   font-style: italic;
   font-weight: 300;
@@ -274,7 +274,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.subscribe-text{
+.subscribe-text {
   font-size: 1rem;
   color: #fff;
   line-height: 2rem;
@@ -282,21 +282,21 @@ h2 {
   font-weight: 300;
 }
 
-.subscribe-form{
+.subscribe-form {
   position: relative;
 }
 
-input{
-    padding: .9rem 1.75rem;
-    padding-right: 150px;
-    width: 90%;
-    border-radius: 25px;
-    position: relative;
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
+input {
+  padding: .9rem 1.75rem;
+  padding-right: 150px;
+  width: 90%;
+  border-radius: 25px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
 }
 
-#submit{
+#submit {
   background-color: #e2574c;
   color: #fff;
   padding: .8rem 1.5rem;
@@ -309,7 +309,7 @@ input{
   font-weight: 700;
 }
 
-.aloha-footer{
+.aloha-footer {
   background-color: #242424;
   color: #fff;
   padding: 4rem 0;
@@ -317,30 +317,169 @@ input{
   text-align: center;
 }
 
-.copyright-container{
+.copyright-container {
   margin-bottom: 1rem;
 }
 
-.contact-container a{
+.contact-container a {
   color: #e2574c;
 }
 
-.contact-container{
-  margin-bottom: 1rem;  
+.contact-container {
+  margin-bottom: 1rem;
 }
 
 .location-container {
   margin-bottom: 1rem;
 }
 
-.social-media-container li{
-display: inline-block;
-margin: .5rem;
+.social-media-container li {
+  display: inline-block;
+  margin: .5rem;
 }
 
 /* Media Queries */
 @media only screen and (min-width: 600px) {
   body {
-    background: red;
+    background: blue;
   }
+
+  /* header - 600px */
+  .header-top {
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+  }
+
+  .aloha-logo {
+    order: 1;
+  }
+
+  .navigation-container {
+    order: 2;
+    border-top: 0px solid #d7d7d7;
+  }
+
+  .cart-logo {
+    order: 3;
+  }
+
+  /* hero-banner section - 600px */
+
+
+
+  .new-collection-text {
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .spring-summer-text {
+    font-size: 3rem;
+  }
+
+  .hand-crafted-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .hand-crafted-container h2 {
+    font-size: 2.6rem;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+  }
+
+  .hand-crafted-container p {
+    font-size: 1.2rem;
+  }
+
+  /* products section */
+
+  .products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "mens-section mens-section trends-section glasses-section""sales-section bags-section womens-section womens-section";
+    text-align: center;
+  }
+
+  .mens-section {
+    grid-area: mens-section;  
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 150px;
+  }
+
+  .trends-section {
+    grid-area: trends-section;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 150px
+  }
+
+  .glasses-section {
+    grid-area: glasses-section;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 150px
+  }
+
+  .sales-section {
+    grid-area: sales-section;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 150px
+  }
+
+  .bags-section {
+    grid-area: bags-section;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 150px
+  }
+
+  .womens-section {
+    grid-area: womens-section;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 150px
+  }
+
+/* most-loved products section */
+.loved-products-section h2{
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.carousel-cell img {
+height: auto;
+width:65%;
+}
+
+.carousel-cell {
+width: 50%;
+}
+
+.sign-up-text{
+  font-size: 2.5rem;
+}
+.subscribe-text{
+  font-size: 1.1rem;
+}
+
+.subscribe-form{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#submit {
+  padding: .8rem 3.5rem;
+  position: absolute;
+  right: 22px;
+  bottom: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+
 }
