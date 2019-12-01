@@ -43,6 +43,8 @@ h2 {
   font-weight: 300;
 }
 
+
+
 /* header with navigation bar section*/
 .header-top {
   display: flex;
@@ -529,9 +531,7 @@ width: 50%;
 
 /* desktop size */
 @media only screen and (min-width: 1240px) {
-body{
-  background: lightblue;
-}
+
 
 /* header section - 1240px*/
 .header-top{
@@ -557,7 +557,7 @@ body{
 }
 
 .cart-logo{
-  max-width: 62px;
+  max-width: 70px;
   margin-top: 0.3rem;
 }
 
@@ -572,5 +572,94 @@ body{
 
 /* hand-crafted section - desktop*/
 
+.hand-crafted-section{
+  width: 720px;
+  margin: 0 auto;
+}
 
+.mens-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 300px;
+}
+
+.trends-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 300px;
+}
+
+.glasses-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 300px;
+}
+
+.sales-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 300px;
+}
+
+.bags-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 300px;
+}
+
+.womens-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 300px;
+}
+
+.centered {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+/* flickity / most-loved products section - desktop */
+
+  
+.carousel-cell {
+  width: 25%;
+  }
+
+/* subscribe section - desktop */
+
+.subscribe-section div{
+  width: 720px;
+  margin: 0 auto;
+}
+
+#submit{
+  padding: .8rem 3.5rem;
+  right: 27px;
+  bottom: 2px;
+}
+/* footer section - desktop */
+.aloha-footer{
+  font-size: larger;
+}
+
+}
+
+
+
+/* misc all */
+a:hover {
+  color: #b64036;
+}
+
+.social-media-container a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media-container a:hover{
+  color: #b64036;
+}
+
+#submit:hover {
+  background-color: #b64036;
 }
