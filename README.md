@@ -10,8 +10,7 @@ Learning flexbox and grid was it's own challenge, I still have a long way to go 
 Diving into JS was scary, but it opens up new ideas of what I can possibly make in the future.
 
 # What does it look like?
-## Link Available Below
-[Aloha Apparel Co](https://fostlt.github.io/aloha-apparel-co/ )
+
 
 ## Desktop
 ![desktop](https://user-images.githubusercontent.com/49625943/69920960-a9f4a100-1442-11ea-9a72-c0a190885f73.gif)
